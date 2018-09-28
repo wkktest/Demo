@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[输入用户名：15000345819]]>
+    </line>
+    <line>
+      <![CDATA[输入密码：a521yulan]]>
+    </line>
+    <line>
+      <![CDATA[点击登录按钮：]]>
+    </line>
+    <line>
+      <![CDATA[未找到注册按钮：验证是否进入成功]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24492" started-at="2018-04-16T02:09:57Z" finished-at="2018-04-16T02:10:21Z">
+    <groups>
+      <group name="登录页面">
+        <method signature="logintest.login139_sucess()[pri:0, instance:test13.loginpagetest.logintest@4dfa3a9d]" name="login139_sucess" class="test13.loginpagetest.logintest"/>
+      </group> <!-- 登录页面 -->
+    </groups>
+    <test name="Default test" duration-ms="24492" started-at="2018-04-16T02:09:57Z" finished-at="2018-04-16T02:10:21Z">
+      <class name="test13.loginpagetest.logintest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test13.loginpagetest.logintest@4dfa3a9d]" name="setup" is-config="true" duration-ms="5276" started-at="2018-04-16T10:09:57Z" description="测试类的初始化" finished-at="2018-04-16T10:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="login139_sucess()[pri:0, instance:test13.loginpagetest.logintest@4dfa3a9d]" name="login139_sucess" duration-ms="18252" started-at="2018-04-16T10:10:02Z" description="成功的登录验证" finished-at="2018-04-16T10:10:20Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Demo.Util.AcUtil.switchWindows(AcUtil.java:614)
+	at test13.loginpagetest.logintest.login139_sucess(logintest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[输入用户名：15000345819]]>
+            </line>
+            <line>
+              <![CDATA[输入密码：a521yulan]]>
+            </line>
+            <line>
+              <![CDATA[点击登录按钮：]]>
+            </line>
+            <line>
+              <![CDATA[未找到注册按钮：验证是否进入成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login139_sucess -->
+        <test-method status="PASS" signature="down()[pri:0, instance:test13.loginpagetest.logintest@4dfa3a9d]" name="down" is-config="true" duration-ms="952" started-at="2018-04-16T10:10:20Z" description="测试类结束" finished-at="2018-04-16T10:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- test13.loginpagetest.logintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

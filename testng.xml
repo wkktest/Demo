@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="test13.loginpagetest.logintest" />
+			<class name="ces.fileonvert.page_test.jktest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+	
+	
+	
+	<listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+    <usedefaultlisteners name="false" />
+    
+    
+    
+    
+    
+   <!--  
+    <test name="FirefoxTest">
+    <parameter name="" value=""/>
+    <parameter name="browser" value="firefox"/>   
+		<classes>
+			<class name="test13.loginpagetest.logintest" />
+		</classes>
+	</test> 
+    <test name="IeTest">
+    <parameter name="" value=""/>
+    <parameter name="browser" value="ie"/>    
+		<classes>
+			<class name="test13.loginpagetest.logintest" />
+		</classes>
+	</test> 
+	<test name="ChromeTest">
+    <parameter name="" value=""/>
+    <parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="test13.loginpagetest.logintest" />
+		</classes>
+	</test> 
+	-->
+    
+</suite> <!-- Suite -->
+
